@@ -35,7 +35,6 @@ public class Main {
 
             if (conn != null) {
                 System.out.println("SUCCESS: Connection to database established");
-                System.out.println(sqlQuery);
                 Statement st = conn.createStatement();
                 ResultSet rs = st.executeQuery(sqlQuery);
 
